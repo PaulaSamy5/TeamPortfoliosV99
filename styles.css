@@ -1,0 +1,99 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Navbar */
+nav {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing:5px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+nav .logo:hover{
+    letter-spacing: 8px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f1f1f1;
+}
+
+/* Team Container */
+.team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+/* Team Member Div */
+.team-member {
+    width: 80%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    object-fit: cover;
+}
+
+.team-member .info {
+    flex: 1;
+}
+
+.team-member h2 {
+    margin: 0 0 0.5rem;
+}
+
+.team-member p {
+    margin: 0;
+}
